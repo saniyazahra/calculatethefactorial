@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculates the factorial Number</title>
+
+</head>
+<body>
+    
+
+
+
+
+<script>
+
+var number = prompt("please Enter a number");
+var fact = 1;
+if(number == 0){
+    console.log(`${number}`);
+}else if(number < 0){
+    console.log(`The factorial of -ive number is not possible`)
+}else{
+    for(let i=1;i<=number;i++)
+    fact = fact * i;
+  console.log(`The factorial of ${number} is ${fact}`)
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
